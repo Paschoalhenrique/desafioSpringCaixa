@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-//POJO -> java Object
+//POJO -> plain old java Object
 @Entity
 @Table (name = "produto")
 public class Produto {
