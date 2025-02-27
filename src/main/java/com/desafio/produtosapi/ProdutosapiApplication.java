@@ -10,6 +10,8 @@ public class ProdutosapiApplication {
 		SpringApplication.run(ProdutosapiApplication.class, args);
 		System.out.println("TESTE DA APÇICAÇÕA NO AR");
 		System.out.println("SUCESSO");
+		System.out.println("Rodar aplicação para teste");
+
 
 	}
 
