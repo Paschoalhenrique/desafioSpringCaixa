@@ -1,10 +1,8 @@
 package com.desafio.produtosapi.controller;
 
-import io.github.cursodsousa.produtosapi.model.Produto;
-import io.github.cursodsousa.produtosapi.repository.ProdutoRepository;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import com.desafio.produtosapi.model.Produto;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
